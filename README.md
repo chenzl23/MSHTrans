@@ -2,8 +2,9 @@
 
 ## Introduction
 - This is the PyTorch implementation of the MSHTrans, which has been accepted by KDD 2025.
+- The hypergraph transformer module was developed based on the inplementation of the paper ``**Z. Shang, L. Chen, B. Wu and D. Cui. "Ada-MSHyper: adaptive multi-scale hypergraph transformer for time series forecasting." Advances in Neural Information Processing Systems 37 (2024): 33310-33337**. You may turn to [Ada-MSHyper](https://github.com/shangzongjiang/Ada-MSHyper) for more details.
 
-## Paper
+## Our Paper
 Z. Chen, Z. Wu, W. K. Cheung, H-N Dai, B. Choi and J. Liu. ​**MSHTrans: Multi-Scale Hypergraph Transformer with Time-Series Decomposition for Temporal Anomaly Detection**. SIGKDD 2025.
 
 ## Code Structure
@@ -28,4 +29,5 @@ Z. Chen, Z. Wu, W. K. Cheung, H-N Dai, B. Choi and J. Liu. ​**MSHTrans: Multi-
 ```bash
 # Example command
 bash ./scripts/scripts.sh
+
 ```
